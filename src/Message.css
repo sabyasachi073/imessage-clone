@@ -1,0 +1,54 @@
+.message {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: fit-content;
+  max-width: 75%;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.message > p {
+  margin: 10px;
+  margin-right: auto;
+  padding: 10px 20px;
+  padding-top: 8px;
+  min-width: 60px;
+  background-color: #f3f3f5;
+  border-radius: 15px;
+  font-size: medium;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.message > p > small {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  bottom: -3px;
+  width: fit-content;
+  color: gray;
+  font-size: 10px;
+}
+
+.message__sender {
+  margin-left: auto;
+}
+
+.message__sender > .message__photo {
+  order: 1;
+  margin: 15px;
+}
+
+.message__photo {
+  order: 0;
+}
+
+.message__sender > p {
+  background-color: #3cabfa;
+  color: white;
+}
+
+.message__sender > p > small {
+  color: rgba(215, 215, 215, 0.95);
+}
